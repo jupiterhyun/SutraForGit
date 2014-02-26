@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.97" >
+
+        <EditText
+            android:id="@+id/EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="380dp"
+            android:hint="@string/edit_message"
+            android:text="" >
+        </EditText>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Button00"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:text="@string/left" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.82"
+            android:text="@string/middle" />
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:text="@string/right" />
+    </LinearLayout>
+
+</LinearLayout>
